@@ -1,1 +1,41 @@
+##Funktionaliteter 
+--filtrera ut program genom att klicka på kategorier
+--Få ut 4 divar genom filtrering av land, stad, universitet och program med titel, info och herobild på land och stad.  
 
+##Sidor
+--index.html :: Header, nav, main och footer (allt innehåll)
+--frequentStyle.css :: Stylar det som inte förändras, titlar fontstorlek, bakgrundsfärg, bild, viss elementstorlek, vw
+--functionStyle.css :: Stylar funktionerna och innehållet 
+--globalVariables.js :: De variablar som vi kan återanvända och applicera i vår mainscript, även navfunktionen
+--mainScript.js :: innehåller alla funktioner till våra två huvudfunktioner
+--database.js :: databasen med objects och arrays 
+
+
+##Funktioner
+--createDivWithContent (content) ::  
+
+
+--getProgramByCategory (category) :: programName[], filtrera ut och visa program (med namn, land, stad och universitet) genom att klicka på kategorier 
+--filterCityByCountry (country) :: cityName[], filtrera ut städer beroende på vilket land som är valt
+--filterUniversityByCity (city) :: universityName[], filtrera ut universitet kopplat till staden som är vald
+--filterProgramByUniversity (university) :: programName [], filtrerar ut program som finns på universitetet 
+
+##Globala variabler
+--let DB =
+--let select = 
+--let selectCountry =
+--let selectCity =
+--let selectUniversity = 
+--let selectProgram =
+
+--let divProgramAndCategories =
+--let divFilterContainer = 
+--let categories = {}
+--let programGeneralContent = {}
+--let countryGeneralContent = {}
+--let cityGeneralContent = {}
+--let universityGeneralContent= {}
+--let content = {programGeneralContent, countryGeneralContent, cityGeneralContent, universityGeneralContent}
+
+##Css-filer
+--frequentStyle.css :: innehåller nav som hoppar till rätt del på html-sidan, header, footer, h1:or, heropicture, infobox
