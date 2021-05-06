@@ -1,0 +1,40 @@
+##Funktionaliteter 
+- Navigera sig på sidan via navigationen
+- Hitta vilka program som finns utifrån kategorier
+- Klicka på ett program som kommer upp utifrån valet kategori och därefter få alla informations
+- Välja ett land och få upp informatiom om det valda landet
+- Välja en stad av de som finns i det redan valda landet och få upp information om staden
+- Välja en skola som finns i den valda staden och få upp info om skolan
+- Väja ett program som finns på den valda skolan och få upp info om programmet
+- Filtera vilken level man vill ha på programmen, Doctorate, Masters, Batchelor
+
+##Sidor
+Index.html - innehåller allt innehåll som ska finnas på sidan
+Style.css - stylar allt på CSS sidan
+variables.css - alla variabler med storlekar, färger osv
+main.js 
+Databbas.js 
+
+##Fuktioner
+-Länkar i NAVEN så man scrollas ner till rätt plats på sidan när man klickar i navigationen, <a href="#StuderaUtomlands">Studera Utomlands</a>
+-FindProgrammeByCateogory(Media) :: Div med namn på kursen, landet, staden, universitetet | Man klickar i den katrogrin man är intresserad av och får upp de program som ingår i den kategorin man valt
+-GetCountryInfo() :: En div som innehåller: Landets namn, flaggan, Info om Landet, Språk, Om visum krävs.
+-GetCityInfo():: En div som innehåller: Stadens namn, antal soldagar, Info om staden, Recensioner om staden.
+-FilterCitiesiÍnCountry 
+-GetUniverityInfo() :: En div som innehåller: Klubbar
+-GetProgrammeInfo() :: En div som innehåller: Språket som programmer är på, behörighetskrav & sucessrate, recensioner om programmet.
+-ChooseStudyLevel() 
+
+##Globala variabler
+let ProgramContainerDIV = Stor div där alla divar med programmet som igår i den valda kategorin dyker upp i anskilda divar med NAMN,LAND, STAD, SKOLA
+let Select =
+let UtbildningsDIV = Stor div där det kommer upp vars en div för: LAND, STAD, SKOLA, PROGRAMME och dess innehåll beroende på vad man väljer 
+const COUNTRIES = array med alla länder 
+const CITIES = array med alla städer 
+const UNIVERSITIES = array med alla skolor
+const PROGRAMMES = array med alla program
+
+
+
+
+##CSS-filer
