@@ -1,6 +1,6 @@
 ##Funktionaliteter 
 --filtrera ut program genom att klicka på kategorier
---Få ut 4 divar genom filtrering av land, stad, universitet och program med titel, info och herobild på land och stad.  
+--Få ut 4 divar genom filtrering av land, stad, universitet och program med titel, info och herobild på land och stad, språk, visa,   
 
 ##Sidor
 --index.html :: Header, nav, main och footer (allt innehåll)
@@ -11,10 +11,10 @@
 
 ##Funktioner
 --createCategoriesContent () :: klicka på en kategori och så skapas innehåll med program, land och stad
---createCountryContent (country) ::
---createCityContent (city) ::
---createUniversityContent (university) ::
---createProgramContent (program) ::
+--createCountryContent (country) :: (countryContent) skapa det innehåll som finns i country - flagga, bild, info, visa, språk
+--createCityContent (city) :: (cityContent) skapa det innehåll som finns i city - soldagar, bild, info, språk
+--createUniversityContent (university) :: (universityContent) skapa det innehåll som finns i university -
+--createProgramContent (program) :: (programContent) skapa det innehåll som finns i program - språk, nivå 
 
 --getProgramByCategory (category) :: program[], filtrera ut och visa program genom att klicka på kategorier 
 --getCountryByCategory (category) :: country[], filtrera ut och visa land genom att klicka på kategorier 
