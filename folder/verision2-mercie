@@ -9,32 +9,42 @@
 - Filtera vilken level man vill ha på programmen, Doctorate, Masters, Batchelor
 
 ##Sidor
-Index.html - innehåller allt innehåll som ska finnas på sidan
-Style.css - stylar allt på CSS sidan
-variables.css - alla variabler med storlekar, färger osv
-main.js 
-Databbas.js 
+-- Index.html - innehåller allt innehåll som ska finnas på sidan
+-- main.js - innehåller alla funktioner till våra två huvudfunktioner
+-- Databbas.js 
 
 ##Fuktioner
--Länkar i NAVEN så man scrollas ner till rätt plats på sidan när man klickar i navigationen, <a href="#StuderaUtomlands">Studera Utomlands</a>
--FindProgrammeByCateogory(Media) :: Div med namn på kursen, landet, staden, universitetet | Man klickar i den katrogrin man är intresserad av och får upp de program som ingår i den kategorin man valt
--GetCountryInfo() :: En div som innehåller: Landets namn, flaggan, Info om Landet, Språk, Om visum krävs.
--GetCityInfo():: En div som innehåller: Stadens namn, antal soldagar, Info om staden, Recensioner om staden.
--FilterCitiesiÍnCountry 
--GetUniverityInfo() :: En div som innehåller: Klubbar
--GetProgrammeInfo() :: En div som innehåller: Språket som programmer är på, behörighetskrav & sucessrate, recensioner om programmet.
--ChooseStudyLevel() 
+--filterCitiesiByCountry (country) :: [], filterar ut alla städer som finns i det valda landet
+--filterUniversitiesByCity (city) :: [], filterar ut alla universitet som finns i den valda staden 
+--filterProgrammesByUniversitet :: [], filterar ut alla program som finns på den valda skolan 
+--FindProgrammeByCateogory(category) :: [], Div med namn på kursen, landet, staden, universitetet | Man klickar i den katrogrin man är intresserad av och får upp de program som ingår i den kategorin man valt
+
+--Länkar i NAVEN så man scrollas ner till rätt plats på sidan när man klickar i navigationen, <a href="#StuderaUtomlands">Studera Utomlands</a>
+
+--GetCountryInfoDiv() :: En div som innehåller: Landets namn, flaggan, Info om Landet, Språk, Om visum krävs.
+--GetCityInfoDiv():: En div som innehåller: Stadens namn, antal soldagar, Info om staden, Recensioner om staden.
+--GetUniverityInfoDiv() :: En div som innehåller: Klubbar
+--GetProgrammeInfoDiv() :: En div som innehåller: Språket som programmer är på, behörighetskrav & sucessrate, recensioner om programmet.
+--ChooseStudyLevel() 
 
 ##Globala variabler
-let ProgramContainerDIV = Stor div där alla divar med programmet som igår i den valda kategorin dyker upp i anskilda divar med NAMN,LAND, STAD, SKOLA
-let Select =
-let UtbildningsDIV = Stor div där det kommer upp vars en div för: LAND, STAD, SKOLA, PROGRAMME och dess innehåll beroende på vad man väljer 
-const COUNTRIES = array med alla länder 
-const CITIES = array med alla städer 
-const UNIVERSITIES = array med alla skolor
-const PROGRAMMES = array med alla program
+--let categories = [categories]
+--let selectCountry = [countries]
+--let selectCity = [cities]
+--let selectUniversity = [universities]
+--let selectProgram = [programs]
+
+--let ProgramContainerDIV = Stor div där alla divar med programmet som igår i den valda kategorin dyker upp i anskilda divar med NAMN,LAND, STAD, SKOLA
+--let UtbildningsDIV = Stor div där det kommer upp vars en div för: LAND, STAD, SKOLA, PROGRAM och dess innehåll beroende på vad man väljer 
+
+--const COUNTRIES = array med alla länder 
+--const CITIES = array med alla städer 
+--const UNIVERSITIES = array med alla skolor
+--const PROGRAMMES = array med alla program
 
 
 
 
 ##CSS-filer
+--style.css - stylar allt annat på sidan som tillkommer via funktionerna 
+--variables.css - variabler som stylar alla storlekar, färger, fonter, header, footer, nav, allt som inte förändras 
