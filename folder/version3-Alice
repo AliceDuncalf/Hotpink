@@ -1,0 +1,34 @@
+##Funktionaliteter 
+--Även kunna filtrera med doctorate, masters, bachelor degree
+--Kunna klicka på en av kategori div med resultat som fyller i land/stad/uni/program select väljaren. 
+--skapa och placera den informationen som finns kvar i land/stad/uni/program divarna. 
+
+##Sidor
+--index.html :: Header, nav, main och footer (allt innehåll)
+--globalVariables.js :: De variablar som vi kan återanvända och applicera i vår mainscript, även navfunktionen
+--main.js :: innehåller alla funktioner till våra två huvudfunktioner
+--database.js :: databasen med objects och arrays 
+
+
+##Funktioner
+--filterProgramsByDegree (degree) :: (programs) filtrera ut programmen beroende på vilken degree i select
+--getCityReviews (city) :: (cityReviews) få fram kommentarer kopplat till staden
+--getProgramReviews (program) :: (programReviews) få fram kommentarer kopplat till programmet
+--getProgramSuccessrate (program):: (sucessRate) hämta succesrate kopplat till programmet
+--getProgramEntryGrades (program) :: (entryGrades) hämta behörighetskrav kopplat till programmet
+--getUniversityClub (university) :: (clubs) få fram de klubbar och medlemmar som tillhör universitetet 
+
+--PlaceCategoryChoiceInSelect :: klicka på kategori resultatet och få land/stad/universitet/program ifyllt i select-delen. 
+
+
+##Globala variabler
+let cityReviews = {}
+let programReviews = {}
+let successRate = {}
+let entrygGrades = {}
+let UniClubs = {}
+
+
+##Css-filer
+--variables.css :: placera reklamen 
+--functions.css :: styla innehållet i reviews, succesrate, entrygrades, clubs
