@@ -1,0 +1,44 @@
+##Funktionaliteter 
+- Navigera sig på sidan via navigationen
+- Hitta vilka program som finns utifrån kategorier
+- Klicka på ett program som kommer upp utifrån valet kategori och därefter få alla informations
+- Välja ett land och få upp informatiom om det valda landet
+- Välja en stad av de som finns i det redan valda landet och få upp information om staden
+- Välja en skola som finns i den valda staden och få upp info om skolan
+- Väja ett program som finns på den valda skolan och få upp info om programmet
+- Filtera vilken level man vill ha på programmen, Doctorate, Masters, Batchelor
+
+##Sidor
+-- Index.html - innehåller allt innehåll som ska finnas på sidan
+-- main.js - innehåller alla funktioner till våra två huvudfunktioner
+-- Databbas.js 
+-- globalVariables.js :: De variablar som vi kan återanvända och applicera i vår mainscript, även navfunktionen
+
+##Fuktioner
+--filterCitiesiByCountry (country) :: [], filterar ut alla städer som finns i det valda landet
+--filterUniversitiesByCity (city) :: [], filterar ut alla universitet som finns i den valda staden 
+--filterProgrammesByUniversitet :: [], filterar ut alla program som finns på den valda skolan 
+--FindProgrammeByCateogory(category) :: [], Div med namn på kursen, landet, staden, universitetet | Man klickar i den katrogrin man är intresserad av och får upp de program som ingår i den kategorin man valt
+--InsertInformationInUtbildningdDiv :: Lägger in all info om land, stad, universitet pch program i utbildningsDIVen (select) utifrån det programmet man klicka på i ''Hitta program''
+
+--Länkar i NAVEN så man scrollas ner till rätt plats på sidan när man klickar i navigationen, <a href="#StuderaUtomlands">Studera Utomlands</a>
+
+--GetCountryInfoDiv() :: En div som innehåller: Landets namn, flaggan, Info om Landet, Språk, Om visum krävs.
+--GetCityInfoDiv():: En div som innehåller: Stadens namn, antal soldagar, Info om staden, Recensioner om staden.
+--GetUniverityInfoDiv() :: En div som innehåller: Klubbar
+--GetProgrammeInfoDiv() :: En div som innehåller: Språket som programmer är på, behörighetskrav & sucessrate, recensioner om programmet.
+--ChooseStudyLevel() 
+
+##Globala variabler
+let cityReviews = {}
+let programReviews = {}
+let successRate = {}
+let entrygGrades = {}
+let UniClubs = {}
+
+
+
+
+##CSS-filer
+--style.css - stylar allt annat på sidan som tillkommer via funktionerna 
+--variables.css - variabler som stylar alla storlekar, färger, fonter, header, footer, nav, allt som inte förändras 
