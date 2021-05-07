@@ -19,10 +19,10 @@
 
 ##Globala variabler
 --let categories = {}
---let programName = {}
---let countryName = {}
---let cityName = {}
---let universityName = {}
+--let programs = {}
+--let countries = {}
+--let cities = {}
+--let universities = {}
 
 ##Css-filer
 --variables.css :: innehåller nav som hoppar till rätt del på html-sidan, header, footer, h1:or, heropicture, infobox
