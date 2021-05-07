@@ -11,12 +11,14 @@
 
 
 ##Funktioner
---filterProgramsByDegree (degree) :: (programs) filtrera ut programmen beroende på vilken degree i select
---getCityReviews (city) :: (cityReviews) få fram kommentarer kopplat till staden
---getProgramReviews (program) :: (programReviews) få fram kommentarer kopplat till programmet
---getProgramSuccessrate (program):: (sucessRate) hämta succesrate kopplat till programmet
---getProgramEntryGrades (program) :: (entryGrades) hämta behörighetskrav kopplat till programmet
---getUniversityClub (university) :: (clubs) få fram de klubbar och medlemmar som tillhör universitetet 
+--filterProgramsByDegree (degree) :: programs [] filtrera ut programmen beroende på vilken degree i select
+--getCityReviews (city) :: cityReviews [] få fram kommentarer kopplat till staden
+--getProgramReviews (program) :: programReviews [] få fram kommentarer kopplat till programmet
+--getProgramSuccessrate (program):: sucessRate[], hämta succesrate kopplat till programmet
+--getProgramEntryGrades (program) :: entryGrades [], hämta behörighetskrav kopplat till programmet
+--getUniversityClub (university) :: clubs[], få fram de klubbar och medlemmar som tillhör universitetet 
+--getLocalStudentsProgram (program) :: localStudents[] få local students som tillhör det valda programmet 
+--getExchangeStudentsProgram (program) :: exchangeStudents[], få exchange students som tillhör det valda programmet 
 
 --PlaceCategoryChoiceInSelect :: klicka på kategori resultatet och få land/stad/universitet/program ifyllt i select-delen. 
 
