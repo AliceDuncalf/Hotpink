@@ -1,6 +1,6 @@
 ##Funktionaliteter 
 --filtrera ut program genom att klicka på kategorier
---Få ut 4 divar där filtrering av land/stad/universitet/program kan appliceras (titel, info, flagga, språk etc)
+--Skapa 4 olika divar där filtreringen av land/stad/universitet/program läggs till (titel, info, flagga, språk etc)
 
 ##Sidor
 --index.html :: Header, nav, main och footer (allt innehåll)
