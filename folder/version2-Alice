@@ -1,6 +1,7 @@
 ##Funktionaliteter 
 --filtrera ut program genom att klicka på kategorier
---Få ut 4 divar genom filtrering av land, stad, universitet och program med titel, info och herobild på land och stad, språk, visa,   
+--Få ut 4 divar där filtrering av land/stad/universitet/program kan appliceras (titel, info, flagga, språk etc)
+--Få fram alla alternativ i select
 
 ##Sidor
 --index.html :: Header, nav, main och footer (allt innehåll)
@@ -20,10 +21,6 @@
 --getCountryByCategory (category) :: country[], filtrera ut och visa land genom att klicka på kategorier 
 --getCityByCategory (category) :: city[], filtrera ut och visa stad genom att klicka på kategorier 
 
-*/--filterCitiesByCountry (country) :: cities[], filtrera ut städer beroende på vilket land som är valt
---filterUniversitiesByCity (city) :: universities[], filtrera ut universitet kopplat till staden som är vald
---filterProgramsByUniversity (university) :: programs [], filtrerar ut program som finns på universitetet */
-
 
 ##Globala variabler
 --let DB =
@@ -33,14 +30,12 @@
 --let selectUniversity = [universities]
 --let selectProgram = [programs]
 
-/*--let divProgramAndCategories =
---let divFilterContainer = 
---let categories = {}
+--let divProgramAndCategories =
 --let programGeneralContent = {}
 --let countryGeneralContent = {}
 --let cityGeneralContent = {}
 --let universityGeneralContent= {}
---let allContent = {programGeneralContent, countryGeneralContent, cityGeneralContent, universityGeneralContent} */
+--let allContent = {programGeneralContent, countryGeneralContent, cityGeneralContent, universityGeneralContent} 
 
 ##Css-filer
 --variables.css :: Stylar variablar som inte förändras; fontstil, h1:or, fontstorlek, bakgrundsfärg, bild, storlek, vw, nav som hoppar till rätt del på html-sidan, header, footer, heropicture, infobox
