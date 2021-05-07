@@ -1,7 +1,7 @@
 ##Funktionaliteter 
 --Även kunna filtrera med doctorate, masters, bachelor degree
 --Kunna klicka på en av kategori div med resultat som fyller i land/stad/uni/program select väljaren. 
---skapa och placera den informationen som finns kvar i land/stad/uni/program divarna. 
+--skapa och placera den informationen som finns kvar i land/stad/uni/program divarna (reviews, entrygrades etc). 
 
 ##Sidor
 --index.html :: Header, nav, main och footer (allt innehåll)
