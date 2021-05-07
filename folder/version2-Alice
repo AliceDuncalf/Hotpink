@@ -17,20 +17,16 @@
 --createUniversityContent (university) :: (universityContent) skapa det innehåll som finns i university -
 --createProgramContent (program) :: (programContent) skapa det innehåll som finns i program - språk, nivå 
 
---getProgramByCategory (category) :: program[], filtrera ut och visa program genom att klicka på kategorier 
---getCountryByCategory (category) :: country[], filtrera ut och visa land genom att klicka på kategorier 
---getCityByCategory (category) :: city[], filtrera ut och visa stad genom att klicka på kategorier 
-
+--getProgramByCategory (category) :: program[], filtrera ut och visa program genom att klicka på en kategori
+--getCountryByCategory (category) :: country[], filtrera ut och visa land som hör ihop med programmet
+--getCityByCategory (category) :: city[], filtrera ut och visa stad som hör ihop med programmet
+--getUniversityByCategory (category) :: university [] filtrera ut och visa universitet som hör ihop med programmet
 
 ##Globala variabler
 --let DB =
 --let categories = [categories]
---let selectCountry = [countries]
---let selectCity = [cities]
---let selectUniversity = [universities]
---let selectProgram = [programs]
 
---let divProgramAndCategories =
+--let ProgramAndCategories =
 --let programGeneralContent = {}
 --let countryGeneralContent = {}
 --let cityGeneralContent = {}
