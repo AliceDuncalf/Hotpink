@@ -13,7 +13,11 @@
 
 
 ##Funktioner
---getProgramByCategory (category) :: program[], filtrera ut och visa program (med namn, land, stad och universitet) genom att klicka på kategorier 
+--getCountries (countries) :: countries [] få fram alla länder i select
+--getCitites  (citites) :: citites [] få fram alla städer i select
+--getUniversities (universities) :: universities [] få fram alla universitet i select
+--getPrograms (programs) :: programs [] få fram alla program i select
+--getProgramByCategory (category) :: program[], filtrera ut och visa program (med namn, land, stad och universitet) som hör ihop med den kategori som är klickad på 
 --filterCitiesByCountry (country) :: cities[], filtrera ut städer beroende på vilket land som är valt
 --filterUniversitiesByCity (city) :: universities[], filtrera ut universitet kopplat till staden som är vald
 --filterProgramsByUniversity (university) :: programs [], filtrerar ut program som finns på universitetet
