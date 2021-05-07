@@ -1,10 +1,11 @@
 ##Funktionaliteter 
 --Kunna trycka i navigationen och hamna på rätt del av html-sidan
+--Filtrera ut det viktiga och användbara
 
 ##Sidor
 --index.html :: Header, nav, main och footer (allt innehåll)
---frequentStyle.css :: Stylar det som inte förändras, titlar fontstorlek, bakgrundsfärg, bild, viss elementstorlek, vw
---functionStyle.css :: Stylar funktionerna och innehållet 
+--variables.css :: Stylar det som inte förändras, titlar fontstorlek, bakgrundsfärg, bild, viss elementstorlek, vw
+--functions.css :: Stylar funktionerna och innehållet 
 --globalVariables.js :: De variablar som vi kan återanvända och applicera i vår mainscript, även navfunktionen
 --mainScript.js :: innehåller alla funktioner till våra två huvudfunktioner
 --database.js :: databasen med objects och arrays 
@@ -12,9 +13,9 @@
 
 ##Funktioner
 --getProgramByCategory (category) :: program[], filtrera ut och visa program (med namn, land, stad och universitet) genom att klicka på kategorier 
---filterCityByCountry (country) :: city[], filtrera ut städer beroende på vilket land som är valt
---filterUniversityByCity (city) :: university[], filtrera ut universitet kopplat till staden som är vald
---filterProgramByUniversity (university) :: program [], filtrerar ut program som finns på universitetet 
+--filterCitiesByCountry (country) :: cities[], filtrera ut städer beroende på vilket land som är valt
+--filterUniversitiesByCity (city) :: universities[], filtrera ut universitet kopplat till staden som är vald
+--filterProgramsByUniversity (university) :: programs [], filtrerar ut program som finns på universitetet
 
 ##Globala variabler
 --let categories = {}
@@ -24,4 +25,4 @@
 --let universityName = {}
 
 ##Css-filer
---frequentStyle.css :: innehåller nav som hoppar till rätt del på html-sidan, header, footer, h1:or, heropicture, infobox
+--variables.css :: innehåller nav som hoppar till rätt del på html-sidan, header, footer, h1:or, heropicture, infobox
