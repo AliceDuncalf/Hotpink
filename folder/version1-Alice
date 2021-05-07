@@ -1,6 +1,7 @@
 ##Funktionaliteter 
 --Kunna trycka i navigationen och hamna på rätt del av html-sidan
 --Filtrera ut det viktiga och användbara
+--Få fram alla alternativ i select
 
 ##Sidor
 --index.html :: Header, nav, main och footer (allt innehåll)
@@ -23,6 +24,11 @@
 --let countries = {}
 --let cities = {}
 --let universities = {}
+
+--let selectCountry = [countries]
+--let selectCity = [cities]
+--let selectUniversity = [universities]
+--let selectProgram = [programs]
 
 ##Css-filer
 --variables.css :: innehåller nav som hoppar till rätt del på html-sidan, header, footer, h1:or, heropicture, infobox
